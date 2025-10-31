@@ -1,22 +1,24 @@
-# Galería de Imágenes
+# Galería de Imágenes Personal
 
-¡Bienvenido a Galería de Imágenes! Una aplicación web interactiva desarrollada con HTML, CSS, Bootstrap y JavaScript que permite explorar una colección de imágenes organizadas por categorías.
+¡Bienvenido a mi Galería de Imágenes Personal! Una aplicación web interactiva desarrollada con HTML, CSS, Bootstrap y JavaScript que muestra una colección de mis fotografías organizadas por categorías personales.
 
 ## Características
 
-- **Diseño Responsivo**: Se adapta a diferentes tamaños de pantalla.
-- **Filtrado por Categorías**: Filtra imágenes por diferentes categorías como naturaleza, ciudad, playa, etc.
-- **Vista Detallada**: Muestra información detallada de cada imagen.
-- **Formulario de Contacto**: Permite a los visitantes enviar mensajes.
-- **Página Sobre Nosotros**: Presenta al equipo detrás del proyecto.
+- **Diseño Responsivo**: Se adapta perfectamente a cualquier dispositivo móvil, tableta o computadora.
+- **Galería Interactiva**: Explora mis fotografías organizadas en categorías personales como aventuras, playas, ciudad y más.
+- **Filtro por Categorías**: Fácil navegación entre diferentes tipos de fotografías.
+- **Vista Detallada**: Amplía cada imagen para verla en todo su esplendor con su descripción y fecha.
+- **Sección Personal**: Conoce más sobre mí, mis intereses y mi trayectoria profesional.
+- **Formulario de Contacto**: Envíame un mensaje directamente desde la página.
 
 ## Tecnologías Utilizadas
 
-- **HTML5**: Para la estructura de las páginas.
-- **CSS3**: Para los estilos personalizados.
-- **Bootstrap 5**: Para el diseño responsivo y componentes de interfaz de usuario.
-- **JavaScript**: Para la interactividad y manejo de datos.
-- **Bootstrap Icons**: Para los iconos utilizados en la interfaz.
+- **HTML5**: Para una estructura semántica y accesible.
+- **CSS3**: Para estilos personalizados y animaciones suaves.
+- **Bootstrap 5**: Framework CSS para un diseño responsive y componentes modernos.
+- **JavaScript Vanilla**: Para la interactividad, validación de formularios y manipulación del DOM.
+- **Bootstrap Icons**: Para una interfaz más intuitiva con iconos profesionales.
+- **Git**: Para el control de versiones del proyecto.
 
 ## Estructura del Proyecto
 
@@ -53,13 +55,43 @@ Este proyecto está configurado para ser desplegado en GitHub Pages. Para public
 
 ## Personalización
 
-- **Imágenes**: Reemplaza las imágenes en la carpeta `assets/images/` con las tuyas propias.
-- **Datos**: Modifica el array `galleryData` en `assets/js/main.js` para añadir o modificar las imágenes y sus detalles.
-- **Estilos**: Personaliza los colores, fuentes y estilos en `assets/css/styles.css`.
+### Cómo personalizar tu propia galería:
 
-## Contribuir
+1. **Imágenes**: 
+   - Reemplaza las imágenes en la carpeta `assets/images/`
+   - Asegúrate de mantener los nombres de archivo o actualizar las referencias en `main.js`
 
-Las contribuciones son bienvenidas. Siéntete libre de enviar un Pull Request.
+2. **Datos de la galería**:
+   - Modifica el array `galleryData` en `assets/js/main.js`
+   - Añade o elimina categorías según tus necesidades
+   - Actualiza la información de cada imagen (título, descripción, fecha, etc.)
+
+3. **Información personal**:
+   - Actualiza la sección "Sobre Mí" en `sobre-nosotros.html`
+   - Modifica la información de contacto en el pie de página
+
+4. **Estilos**:
+   - Personaliza colores, fuentes y estilos en `assets/css/styles.css`
+   - Ajusta los breakpoints para diferentes tamaños de pantalla si es necesario
+
+## Estructura del Código
+
+El proyecto sigue una estructura modular y organizada:
+
+- **HTML**: Cada página tiene su propio archivo HTML con estructura semántica.
+- **CSS**: Estilos organizados por componentes y páginas.
+- **JavaScript**: 
+  - `main.js` contiene toda la lógica de la aplicación
+  - Incluye funciones para cargar la galería, filtrar imágenes y validar formularios
+  - Manejo de eventos y manipulación del DOM
+
+## Despliegue
+
+Puedes desplegar este proyecto en cualquier servicio de hosting estático como:
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
 
 ## Licencia
 
@@ -67,4 +99,9 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ---
 
-Desarrollado con ❤️ para el curso de Desarrollo Web.
+Desarrollado con ❤️ por Edward Garcia para el Diplomado BIT de Desarrollo Web.
+
+## Contacto
+
+- Correo: egarciag97@hotmail.com
+- Teléfono: +57 3015820854
